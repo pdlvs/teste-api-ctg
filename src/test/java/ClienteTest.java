@@ -14,12 +14,11 @@ import static org.hamcrest.Matchers.contains;
 import org.hamcrest.core.IsEqual;
 
 
-public class ClientTest {
+public class ClienteTest {
 
     private static final String BASE_URI = "http://localhost:8080";
     private static final String CLIENTE_ENDPOINT = "/cliente";
     private static final String DELETAR_TODOS = "/apagaTodos";
-    private static final String RISCO = "/risco/";
     private static final String LISTA_VAZIA = "{}";
 
     @Test
